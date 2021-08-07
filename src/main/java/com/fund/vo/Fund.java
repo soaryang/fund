@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.List;
 
 @Data
-@Document(indexName = "fund", type = "fundBean")
+@Document(indexName = "fund", type = "fund")
 public class Fund implements Serializable {
 
     @Id
